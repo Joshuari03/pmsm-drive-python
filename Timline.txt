@@ -1,0 +1,8 @@
+1. usato venv per rendere il progetto python isolato e dunque evitare conflitti
+2. installato matplotlib
+3. ctrl + shift + P -> selezionato interprete ".venv" creato prima
+4. creato progetto inizialmente con solo controllo iq e id del FOC, modello elettrico della macchina, no meccanico,  ω impostata a zero. la corrente segue bene il setpoint iq*=0;
+5. ampliato il progetto con equazioni meccaniche (coppia ecc) e simulata velocità di regime partendo da zero e sempre impostando set di corrente iq* = 8A.
+6. aggiunto checker per saturazione tensione Vdc in output stampato
+7. aggiunto saturatore vettoriale per la tensione e mantenuto il checker (punto 5.) basato sulle tensioni non saturate per farne vedere comunque l'output nel checker.
+8. 
